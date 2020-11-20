@@ -23,7 +23,7 @@ export default class Event {
   @Column()
   value: string;
 
-  @Column({default: 0})
+  @Column({ default: 0 })
   likes_amount: number;
 
   @Column()
@@ -35,6 +35,6 @@ export default class Event {
   @Column()
   longitude: string;
 
-  @Column({default: true})
+  @Column({ default: true })
   active: boolean;
 }
