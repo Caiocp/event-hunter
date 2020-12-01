@@ -10,7 +10,6 @@ export default {
     const eventRepository = getRepository(Event);
 
     const events = await eventRepository.find();
-    console.log(events);
 
     return res.json(eventView.renderMany(events));
   },
