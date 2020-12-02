@@ -23,9 +23,9 @@ POST /events
     "description": "string",
     "address": "string",
     "date": "string",
-    "time": "string"
+    "time": "string",
     "value": "string",
-    "banner": File,
+    "banner": "File",
     "latitude": number,
     "longitude": number
   }
