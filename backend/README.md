@@ -26,8 +26,8 @@ POST /events
     "time": "string",
     "value": "string",
     "banner": "File",
-    "latitude": number,
-    "longitude": number
+    "latitude": "number",
+    "longitude": "number"
   }
 ```
 
