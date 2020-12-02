@@ -14,6 +14,7 @@ n para n. Um evento pode ter vários usuários e um usuário pode ter vários ev
 ```
 POST /events
 ```
+##### Create
 
 ###### Input (MULTI-PART FORM DATA)
 
@@ -36,6 +37,8 @@ POST /events
 Status 201 Created
 Created object
 ```
+
+##### List all
 
 ```
 GET /events
@@ -62,6 +65,8 @@ GET /events
 ]
 ```
 
+##### List one by id
+
 ```
 GET /events/:id
 ```
@@ -85,17 +90,26 @@ GET /events/:id
   }
 ```
 
+##### Update
+
 ```
 PUT /events
 ```
 :construction: Work in progress :construction:
+
+
+##### Delete
 
 ```
 DELETE /events
 ```
 :construction: Work in progress :construction:
 
+
 #### Usuário
+
+
+##### Create
 
 ```
 POST /users
@@ -117,6 +131,8 @@ Status 201 Created
 Created object
 ```
 
+##### List all
+
 ```
 GET /users
 ```
@@ -133,6 +149,8 @@ GET /users
 ]
 ```
 
+##### List one by id
+
 ```
 GET /users/:id
 ```
@@ -147,11 +165,15 @@ GET /users/:id
   }
 ```
 
+##### Update
+
 ```
 PUT /users
 ```
 :construction: Work in progress :construction:
 
+
+##### Delete
 ```
 DELETE /users
 ```
